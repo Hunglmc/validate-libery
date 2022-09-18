@@ -79,6 +79,7 @@ function Validator(formSelector,options={}) {
                 }
                 
             }
+            return !errorsMessage;
         }
 
         function handleClearErr(event){
